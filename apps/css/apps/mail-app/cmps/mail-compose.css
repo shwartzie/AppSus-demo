@@ -1,0 +1,62 @@
+.compose-modal {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #0d1018bb;
+    width: 425px;
+    max-height: 425px;
+    height: 100%;
+    z-index: 2;
+}
+.compose-modal > * {
+    font-family: RobotoBlack;
+}
+
+.header-compose-modal {
+    color: white;
+    display:flex;
+    padding: 0.3em;
+}
+.header-compose-modal h4 {
+    padding-left: 0.5rem;
+    font-size: 14px;
+    width: 80%;
+
+}
+.header-compose-modal button {
+    background-color: transparent;
+    border: none;
+}
+
+.header-functions {
+    display:flex;
+    
+}
+.header-functions button, .btn-submit-compose {
+    cursor: pointer;
+}
+.btn-submit-compose {
+
+}
+.compose-input {
+    background-color: white;
+    border:none;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.compose-footer-functions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.compose-footer-functions > * {
+    color: white;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+

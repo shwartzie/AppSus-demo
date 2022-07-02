@@ -1,0 +1,32 @@
+.change-dir {
+  font-size: 2rem;
+  padding: 5px;
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 50px;
+  color: rgba(65, 65, 65, 0.604);
+}
+.change-dir:hover {
+    box-shadow: 0px 0px 5px 4px rgba(74, 74, 74, 0.46);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(74, 74, 74, 0.46);
+    -moz-box-shadow: 0px 0px 5px 4px rgba(74, 74, 74, 0.46);
+    background-color: rgba(170, 170, 170, 0.332);
+  }
+.keep-logo {
+  max-height: 5vh;
+}
+.keep-logo-and-hamburger {
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  gap: 1rem;
+}
+.mail-header-keep > * {
+  border-bottom: 1px solid grey;
+  height: max-content;
+  padding: 8px;
+}
+.keep-btn.change-dir{
+    padding: 0;
+}

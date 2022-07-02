@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+    .mails-preview-container {
+        height: 80px;
+        align-items: center;
+    }
+
+    .hidden {
+        opacity: 1;
+    }
+
+    .mail-subject {
+        width: 55px;
+    }
+
+    .mail-body {
+        min-width: 0;
+    }
+}

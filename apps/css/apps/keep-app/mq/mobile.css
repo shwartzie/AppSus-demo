@@ -1,0 +1,27 @@
+@media (max-width: 800px) {
+  .keep-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+  }
+  .change-dir {
+    opacity: 0;
+    display: none;
+  }
+  .hidden {
+    opacity: 1;
+  }
+  .nav-bar {
+    justify-content: flex-start;
+  }
+  .keep-logo {
+    position: absolute;
+    right: 0.5px;
+    top: 0.5px;
+  }
+  .keep-logo-and-hamburger {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,126 @@
+.empty-thumbtack {
+  position: absolute;
+  float: right;
+  left: 67vw;
+  top: 5px;
+  height: fit-content;
+  width: fit-content;
+}
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+.isPinned {
+  color: rgb(198, 198, 48);
+}
+.color-nav-modal {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: rgba(207, 207, 207, 0.152);
+}
+.colors {
+  width: 100%;
+}
+.color {
+  border-radius: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+.keep {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+.keep > * {
+  margin: 5px;
+}
+.hidden {
+  opacity: 0;
+  transition-duration: 0.218s;
+}
+.show {
+  opacity: 1;
+  transition-duration: 0.218s;
+}
+.keep-actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+.keep-input {
+  margin: 1rem;
+  border-radius: 15px;
+  padding: 5px;
+}
+.keep-img {
+  width: 60%;
+}
+.todo-in-keep {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.todo-in-keep > * {
+  margin: 10px;
+}
+
+.pin-keep {
+  position: relative;
+}
+.free-text-input,
+.new-keep-title,
+.url-input-keep {
+  width: 70vw;
+  margin: 0;
+}
+li.keep-preview-container {
+  text-align: center;
+  height: fit-content;
+  border-radius: 15px;
+  list-style: none;
+  width: 100%;
+  break-inside: avoid-column;
+  min-width: 220px;
+}
+.keep-container {
+  margin: 10px;
+  text-align: center;
+  height: fit-content;
+  border-radius: 15px;
+}
+.keep-list {
+  width: 100%;
+  column-count: 4;
+  text-align: center;
+  height: fit-content;
+  gap: 1rem;
+}
+.keep-list :first-child {
+  margin-top: 0px;
+}
+.main-content {
+  width: 100%;
+}
+.keep-inputs,
+.keep-buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  width: fit-content;
+  margin: 1rem auto;
+  position: relative;
+}
+.keep-inputs {
+  box-shadow: 0px 0px 38px 8px rgba(92, 92, 92, 0.21);
+  -webkit-box-shadow: 0px 0px 38px 8px rgba(92, 92, 92, 0.21);
+  -moz-box-shadow: 0px 0px 38px 8px rgba(92, 92, 92, 0.21);
+  border: 1px solid rgb(66, 66, 66);
+  border-radius: 15px;
+}
+
+.inputs {
+  flex-direction: column;
+}
+.new-keep {
+  margin: 0px;
+  max-width: 0;
+}

@@ -1,0 +1,139 @@
+@import "./book-app/parts/base.css";
+@import "./book-app/cmps/app-header.css";
+/* app-header , app-footer */
+@import "./mail-app/cmps/mail-header.css";
+@import "./keep-app/parts/base.css";
+@import "./mail-app/cmps/filter-mail.css";
+@import "./mail-app/cmps/mail-aside.cmp.css";
+@import "./mail-app/cmps/mail-conent.css";
+@import "./mail-app/cmps/mail-preview.css";
+@import "./mail-app/cmps/mail-list.css";
+@import "./mail-app/cmps/mail-compose.css";
+@import "./mail-app/cmps/mail-display.css";
+@import "../typography.css";
+@import "./keep-app/parts/main-keep.css";
+@import "../apps/mail-app/mq/phone-preview/mail-mobile.css";
+@import '../apps/mail-app/mq/tablet-preview/mail-tablet.css';
+body {
+    height: 100vh;
+    color: #202124;
+    margin: auto;
+}
+
+button {
+    cursor: pointer;
+}
+.mail-layout {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.app-footer {
+    background: rgb(76, 140, 255);
+    background: linear-gradient(
+        90deg,
+        rgba(76, 140, 255, 1) 0%,
+        rgba(0, 237, 187, 0.6362920168067228) 100%
+    );
+    height: 5vh;
+}
+
+.app-main {
+    height: 90vh;
+    background-color: lightcyan;
+}
+.router-link-exact-active {
+    color: rgba(227, 227, 85, 0.888);
+}
+
+
+.user-msg {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.success {
+    background-color: greenyellow;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
+
+.sale {
+    /*background-color: aqua;*/
+    background-image: url("/img/sale.png");
+}
+
+div .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+div .book > img {
+    margin: 5px;
+}
+
+div .book {
+    text-align: center;
+}
+.low {
+    color: green;
+}
+.high {
+    color: red;
+}
+.book-details {
+    background-color: bisque;
+    text-align: center;
+}
+.book-details img {
+    height: 300px;
+}
+
+.book-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    float: right;
+    width: max-content;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: row;
+}
+.home-page img {
+    width: 50vw;
+    height: auto;
+}
+.home-page {
+    text-align: center;
+}
+
+.book-detail {
+    width: 70vw;
+    margin: auto;
+}
+.book-detail > * {
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+.book-add ul,
+.book-add li {
+    max-width: 200px;
+    padding: 0;
+    margin: 0;
+}

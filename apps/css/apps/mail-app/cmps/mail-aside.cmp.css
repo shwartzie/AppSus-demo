@@ -1,0 +1,132 @@
+.aside {
+    max-height: 100%;
+    height: 100%;
+    margin-right: 0.2em;
+    overflow: hidden;
+    width: 220px;
+    transition: width 0.35s ease;
+}
+
+.aside, .aside-funcs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+.aside-funcs {
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.mail-compose {
+    border-radius: 1.5em;
+    margin-bottom: 1.2rem;
+    width: 100%;
+    max-width: 125px;
+    padding-right: 1.5em;
+    font-size: .875rem;
+    border: 1px black solid;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    transition:  background-color 0.5s ease;
+}
+
+.mail-compose-collapsed {
+    width: 2.5rem;
+    border-radius: 1.5em;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    margin-bottom: 1.2rem;
+    transition: width 0.2s linear;
+}
+
+.mail-compose:hover {
+    background-color: rgba(60, 64, 67, 0.089);
+}
+
+.compose-logo {
+    background-image: url('../../../../img/compose-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    display: block;
+    height: 3rem;
+    min-width: 56px;
+}
+.compose-logo-collapsed {
+    background-image: url('../../../../img/compose-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.75rem;
+    display: block;
+    height:  3rem;
+    min-width: 2.5rem;
+}
+
+.btn-mail-aside {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.btn-mail-aside:hover, .list-selected-inbox {
+    border-radius: 0em 6.25em 6.25em 0em;
+    background-color: rgba(220, 86, 86, 0.593);
+    color: #d93025;
+    font-style: bold;
+}
+.btn-mail-aside:hover {
+    border-radius: 0em 6.25em 6.25em 0em;
+    background-color: rgba(59, 51, 51, 0.224);
+    color: #202124;
+    transition:  background-color 0.2s ease;
+}
+.list-selected-starred,.list-selected-sentMsg,.list-selected-draftedMsg,.list-selected-archived {
+    border-radius: 0em 6.25em 6.25em 0em;
+    background-color: rgba(220, 86, 86, 0.593);
+    font-style: bold;
+}
+
+.btn-mail-aside a {
+    font-size: .875rem;
+    letter-spacing: .2px;
+}
+.mail-compose {
+    margin-bottom: 1.2rem;
+}
+.mail-aside-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    padding: 0 26px 0 12px;
+    width: 224px;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.aside-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 18px;
+    opacity: 1;
+}
+
+.aside-counter {
+    display: flex;
+}
+
+.aside-collapsed a {
+    display:none;
+}
+
+.aside-collapsed {
+    width: 45px;
+    transition: width 0.35s ease;
+    height: 227px;
+}

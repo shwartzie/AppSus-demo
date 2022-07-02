@@ -1,0 +1,18 @@
+/* .nav-mail-filter {
+    display:flex;
+
+} */
+.mail-filter-container {
+    width: 40%;
+    margin-right: 25em;
+    
+}
+.filter-mail {
+    width: 100%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.301);
+    border-radius: 8px;
+    padding: 5px;
+    height: 46px;
+    min-width: 150px;
+}

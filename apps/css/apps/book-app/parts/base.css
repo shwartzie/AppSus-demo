@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  /* button {
+    margin: auto;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+  } */
+  /* input {
+    background: 0;
+    outline: none;
+    max-width: 400px;
+    font-size: 1.5em;
+    border: 2px solid rgb(68, 68, 68);
+    border-collapse: collapse;
+  } */
+  .book-review {
+    margin: auto;
+    width: 30vw;
+  }
+  /* a {
+    padding: 5px;
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: rgb(86, 163, 186);
+    text-decoration: none;
+  } */
+  
+  /* a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  } */
+
+  h3 {
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  /* li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(39, 39, 39, 0.541);
+    padding: 5px;
+  } */
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  }
+  

@@ -1,0 +1,88 @@
+
+
+@media (max-width:800px) {
+    .logo-and-mail {
+        display: none;
+    }
+    .mail-filter-container {
+        width: 100%;
+        margin: 0;
+    }
+    .filter-mail {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .apps-nav {
+        position: absolute;
+    }
+    .aside .aside-expanded{
+        display: hidden;
+    }
+    .mail-filter-container {
+        flex-direction: column;
+    }
+
+    .mail-list {
+        width: 90%;
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 100vh;
+    }
+
+
+    .mail-subject {
+        height: 10px;
+    }
+
+    /* .compose-modal { */
+        /* max-width: 200px; /
+        background-color: #0d1018;
+        top: 75px;
+        width: 100%;
+    /* } */
+
+    .header-function > {
+        color: white; 
+    }
+
+    .aside {
+        max-width: 45px;
+    }
+
+    .mails-preview-container {
+        height: 150px;
+    }
+
+    .mail-container {
+        height: 4.25em;
+    }
+    .mail-subject {
+        height: 55px;
+        width: 50px;
+    }
+
+    .mail-body {
+        padding-left: 1.5em;
+        width: 45%;
+        min-width: 0;
+    }
+
+    .hidden {
+        opacity: 1;
+    }
+
+    .mail {
+        justify-content: space-around;
+    }
+
+    .apps-nav-modal {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+}
